@@ -47,16 +47,38 @@ The goal was to create a calculator that feels closer to a professional mathemat
 
 ### 🧮 Advanced Calculations
 
-- Addition, Subtraction, Multiplication, Division
-- Percentage Calculations
-- Powers and Exponents
-- Square Roots
-- Factorials
-- Logarithmic Functions
-- Natural Logarithms
-- Scientific Constants (π, e)
-- Advanced Trigonometry
-- Inverse Functions
+Perform:
+
+* Addition, Subtraction, Multiplication, Division
+* Percentage Calculations
+* Powers and Exponents
+* Square Roots
+* Factorials
+* Logarithmic Functions
+* Natural Logarithms
+* Mathematical Constants (π, e)
+
+---
+
+### 📐 Trigonometric Engine
+
+Support for:
+
+* sin(x)
+* cos(x)
+* tan(x)
+* sec(x)
+* cosec(x)
+* cot(x)
+
+Inverse Functions:
+
+* sin⁻¹(x)
+* cos⁻¹(x)
+* tan⁻¹(x)
+* sec⁻¹(x)
+* cosec⁻¹(x)
+* cot⁻¹(x)
 
 Additional Features:
 
@@ -86,70 +108,83 @@ Professional calculator memory operations:
 
 ### 🎨 Modern Desktop Experience
 
-- Dark Theme
-- Light Theme
+Designed with usability and aesthetics in mind.
+
+Features:
+
+* Dark Theme
+* Light Theme
+* Smooth UI Interactions
+* Responsive Layout
+* Professional Design Language
+* Hover Effects
+* Keyboard Navigation
 
 ---
 
-## 🛠️ Technology Stack
+### ⚡ Productivity Features
 
-| Technology | Purpose |
-|------------|----------|
-| Python | Core Application Logic |
-| Tkinter | Desktop User Interface |
-| Matplotlib | Graph Rendering |
-| NumPy | Numerical Computation |
-| SymPy | Symbolic Mathematics |
-| JSON | Data Persistence |
-| CSV | Export System |
+* Full Keyboard Support
+* Clipboard Integration
+* Memory Functions (MC, MR, M+, M−)
+* Decimal ↔ Fraction Conversion
+* Expression Sanitization
+* Error Validation
 
 ---
 
-## 📁 Project Structure
+## 🏗️ Project Architecture
 
 ```text
 scientific_calculator/
-│
-├── screenshots/
-│   ├── dark-theme.png
-│   ├── light-theme.png
-│   ├── graph.png
-│   └── polynomial-solver.png
 │
 ├── main.py
 ├── ui.py
 ├── engine.py
 ├── solver.py
 ├── history.py
-├── history.json
 ├── test_calculator.py
-├── ui_integration_test.py
-├── README.md
-└── .gitignore
+│
+├── assets/
+├── screenshots/
+└── exports/
 ```
+
+---
+
+## 🛠️ Technology Stack
+
+| Technology | Role                   |
+| ---------- | ---------------------- |
+| Python     | Core Application Logic |
+| Tkinter    | Desktop User Interface |
+| Matplotlib | Graph Rendering        |
+| NumPy      | Numerical Computation  |
+| SymPy      | Symbolic Mathematics   |
+| JSON       | Data Persistence       |
+| CSV        | Export System          |
 
 ---
 
 ## 🚀 Installation
 
-Install required dependencies:
+### Clone Repository
 
 ```bash
-pip install numpy sympy matplotlib pillow
+git clone https://github.com/YOUR_USERNAME/Advanced-Scientific-Calculator.git
+cd Advanced-Scientific-Calculator
 ```
 
-Run the application:
+### Run Application
 
 ```bash
-python main.py
+python scientific_calculator/main.py
 ```
 
----
-
-## 🧪 Running Tests
+### Execute Tests
 
 ```bash
-python test_calculator.py
+python scientific_calculator/test_calculator.py
 ```
 
 ---
