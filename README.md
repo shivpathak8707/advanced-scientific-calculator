@@ -2,233 +2,168 @@
 
 ### Transforming a Calculator into a Complete Mathematical Workspace
 
-A modern desktop scientific calculator built with Python that combines advanced computation, symbolic mathematics, interactive graph visualization, polynomial solving, history management, and a premium user experience into one powerful application.
+A modern desktop scientific calculator built with Python that combines advanced computation, graph visualization, polynomial solving, history management, and a modern user experience into one powerful application.
 
 ---
 
 ## 🌟 Why This Project?
 
-Most calculators are designed only for arithmetic operations.
+Most calculators are designed only for basic arithmetic operations.
 
 This project was built to provide a richer mathematical experience by combining:
 
-* Scientific Computing
-* Graph Visualization
-* Polynomial Solving
-* Exact Mathematical Representation
-* Interactive User Interface
-* Productivity Tools
+- Scientific Computing
+- Interactive Graph Visualization
+- Polynomial Equation Solving
+- Exact Mathematical Representation
+- Calculation History Management
+- Modern User Interface Design
 
-The goal was to create a calculator that feels closer to a professional mathematical workstation rather than a basic calculator.
+The goal was to create a calculator that feels closer to a professional mathematical workstation than a traditional calculator.
 
 ---
 
-## ✨ Highlights
+## 📸 Application Preview
+
+### 🌙 Dark Theme
+
+![Dark Theme](screenshots/dark-theme.png)
+
+### ☀️ Light Theme
+
+![Light Theme](screenshots/light-theme.png)
+
+### 📈 Graph Plotting
+
+![Graph Plotting](screenshots/graph.png)
+
+### 🧮 Polynomial Solver
+
+![Polynomial Solver](screenshots/polynomial-solver.png)
+
+---
+
+## ✨ Features
 
 ### 🧮 Advanced Calculations
 
-Perform:
-
-* Addition, Subtraction, Multiplication, Division
-* Percentage Calculations
-* Powers and Exponents
-* Square Roots
-* Factorials
-* Logarithmic Functions
-* Natural Logarithms
-* Mathematical Constants (π, e)
-
----
-
-### 📐 Trigonometric Engine
-
-Support for:
-
-* sin(x)
-* cos(x)
-* tan(x)
-* sec(x)
-* cosec(x)
-* cot(x)
-
-Inverse Functions:
-
-* sin⁻¹(x)
-* cos⁻¹(x)
-* tan⁻¹(x)
-* sec⁻¹(x)
-* cosec⁻¹(x)
-* cot⁻¹(x)
+- Addition, Subtraction, Multiplication, Division
+- Percentage Calculations
+- Powers and Exponents
+- Square Roots
+- Factorials
+- Logarithmic Functions
+- Natural Logarithms
+- Scientific Constants (π, e)
+- Advanced Trigonometry
+- Inverse Functions
 
 Additional Features:
 
-* Degree Mode
-* Radian Mode
-* Exact Mathematical Outputs
-* Fraction-Based Representation
-
----
+- Degree (DEG) Mode
+- Radian (RAD) Mode
+- Exact Mathematical Representation
+- Fraction-Based Outputs
+- Decimal ↔ Fraction Conversion
 
 ### 📊 Interactive Function Graphing
 
-Visualize mathematical functions instantly.
-
-Supported Categories:
-
-* Linear Functions
-* Quadratic Functions
-* Polynomial Functions
-* Trigonometric Functions
-* Logarithmic Functions
-* Exponential Functions
-
 Graph Features:
 
-* Zoom In / Zoom Out
-* Pan Navigation
-* Dynamic Coordinate System
-* Axis Labels
-* High-Resolution PNG Export
+- Real-Time Graph Plotting
+- Zoom In / Zoom Out
+- Axis Labels
+- High-Resolution PNG Export
 
----
+### 💾 Memory Functions
 
-### 📈 Polynomial Equation Solver
+Professional calculator memory operations:
 
-Solve:
-
-* Linear Equations
-* Quadratic Equations
-* Cubic Equations
-* Higher-Order Polynomials
-
-Features:
-
-* Real Roots
-* Complex Roots
-* Step-by-Step Solutions
-* Mathematical Explanation Output
-
----
-
-### 📂 Smart History System
-
-Keep track of previous calculations.
-
-Features:
-
-* Persistent Storage
-* Searchable History
-* One-Click Reuse
-* CSV Export
-
----
+- MC (Memory Clear)
+- MR (Memory Recall)
+- M+ (Memory Add)
+- M− (Memory Subtract)
 
 ### 🎨 Modern Desktop Experience
 
-Designed with usability and aesthetics in mind.
-
-Features:
-
-* Dark Theme
-* Light Theme
-* Smooth UI Interactions
-* Responsive Layout
-* Professional Design Language
-* Hover Effects
-* Keyboard Navigation
+- Dark Theme
+- Light Theme
 
 ---
 
-### ⚡ Productivity Features
+## 🛠️ Technology Stack
 
-* Full Keyboard Support
-* Clipboard Integration
-* Memory Functions (MC, MR, M+, M−)
-* Decimal ↔ Fraction Conversion
-* Expression Sanitization
-* Error Validation
+| Technology | Purpose |
+|------------|----------|
+| Python | Core Application Logic |
+| Tkinter | Desktop User Interface |
+| Matplotlib | Graph Rendering |
+| NumPy | Numerical Computation |
+| SymPy | Symbolic Mathematics |
+| JSON | Data Persistence |
+| CSV | Export System |
 
 ---
 
-## 🏗️ Project Architecture
+## 📁 Project Structure
 
 ```text
 scientific_calculator/
+│
+├── screenshots/
+│   ├── dark-theme.png
+│   ├── light-theme.png
+│   ├── graph.png
+│   └── polynomial-solver.png
 │
 ├── main.py
 ├── ui.py
 ├── engine.py
 ├── solver.py
 ├── history.py
+├── history.json
 ├── test_calculator.py
-│
-├── assets/
-├── screenshots/
-└── exports/
+├── ui_integration_test.py
+├── README.md
+└── .gitignore
 ```
-
----
-
-## 🛠️ Technology Stack
-
-| Technology | Role                   |
-| ---------- | ---------------------- |
-| Python     | Core Application Logic |
-| Tkinter    | Desktop User Interface |
-| Matplotlib | Graph Rendering        |
-| NumPy      | Numerical Computation  |
-| SymPy      | Symbolic Mathematics   |
-| JSON       | Data Persistence       |
-| CSV        | Export System          |
 
 ---
 
 ## 🚀 Installation
 
-### Clone Repository
+Install required dependencies:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Advanced-Scientific-Calculator.git
-cd Advanced-Scientific-Calculator
+pip install numpy sympy matplotlib pillow
 ```
 
-### Run Application
+Run the application:
 
 ```bash
-python scientific_calculator/main.py
+python main.py
 ```
 
-### Execute Tests
+---
+
+## 🧪 Running Tests
 
 ```bash
-python scientific_calculator/test_calculator.py
+python test_calculator.py
 ```
 
 ---
 
 ## 🎯 Future Enhancements
 
-* Matrix Calculator
-* Calculus Engine
-* Statistics Module
-* Unit Conversion System
-* Scientific Notation Tools
-* Equation Step Solver
-* LaTeX Export
-* PDF Export
-* Plugin Support
-
----
-
-## 🤝 Contributing
-
-Contributions, suggestions, and feature requests are always welcome.
-
-1. Fork the repository
-2. Create a new branch
-3. Commit your changes
-4. Push to your fork
-5. Open a Pull Request
+- Matrix Calculator
+- Statistics Module
+- Unit Conversion System
+- Scientific Notation Tools
+- PDF Export
+- LaTeX Export
+- Advanced Calculus Engine
+- Plugin Architecture
 
 ---
 
@@ -236,12 +171,13 @@ Contributions, suggestions, and feature requests are always welcome.
 
 ### Shivnandan Pathak
 
-B.Tech CSE Student • Software Developer • Problem Solver
+**B.Tech Computer Science Student | Software Developer | Cloud & AI Enthusiast**
 
-Focused on building practical software solutions, exploring mathematics, software engineering, cloud technologies, and AI-powered applications.
+Passionate about building practical software solutions, mathematical tools, cloud-based systems, and AI-powered applications.
 
 ---
 
-### ⭐ Support
+## ⭐ Support
 
-If you found this project useful, consider giving the repository a star. It helps the project reach more developers and motivates future improvements.
+If you found this project useful, consider giving the repository a star.
+It helps the project reach more developers and motivates future improvements.
