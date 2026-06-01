@@ -202,6 +202,28 @@ python scientific_calculator/test_calculator.py
 
 ---
 
+## 🚀 Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/shivpathak8707/advanced-scientific-calculator.git
+cd advanced-scientific-calculator
+```
+
+Install dependencies:
+
+```bash
+pip install numpy matplotlib sympy pillow
+```
+
+Run the application:
+
+```bash
+python main.py
+```
+---
+
 ## 👨‍💻 Author
 
 ### Shivnandan Pathak
