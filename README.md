@@ -37,28 +37,10 @@ Perform:
 * Logarithmic Functions
 * Natural Logarithms
 * Mathematical Constants (π, e)
+* Trignometric Functions
+* Inverse Trignometric Functions
 
 ---
-
-### 📐 Trigonometric Engine
-
-Support for:
-
-* sin(x)
-* cos(x)
-* tan(x)
-* sec(x)
-* cosec(x)
-* cot(x)
-
-Inverse Functions:
-
-* sin⁻¹(x)
-* cos⁻¹(x)
-* tan⁻¹(x)
-* sec⁻¹(x)
-* cosec⁻¹(x)
-* cot⁻¹(x)
 
 Additional Features:
 
@@ -131,11 +113,6 @@ Features:
 
 * Dark Theme
 * Light Theme
-* Smooth UI Interactions
-* Responsive Layout
-* Professional Design Language
-* Hover Effects
-* Keyboard Navigation
 
 ---
 
@@ -150,25 +127,6 @@ Features:
 
 ---
 
-## 🏗️ Project Architecture
-
-```text
-scientific_calculator/
-│
-├── main.py
-├── ui.py
-├── engine.py
-├── solver.py
-├── history.py
-├── test_calculator.py
-│
-├── assets/
-├── screenshots/
-└── exports/
-```
-
----
-
 ## 🛠️ Technology Stack
 
 | Technology | Role                   |
@@ -180,29 +138,6 @@ scientific_calculator/
 | SymPy      | Symbolic Mathematics   |
 | JSON       | Data Persistence       |
 | CSV        | Export System          |
-
----
-
-## 🚀 Installation
-
-### Clone Repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/Advanced-Scientific-Calculator.git
-cd Advanced-Scientific-Calculator
-```
-
-### Run Application
-
-```bash
-python scientific_calculator/main.py
-```
-
-### Execute Tests
-
-```bash
-python scientific_calculator/test_calculator.py
-```
 
 ---
 
